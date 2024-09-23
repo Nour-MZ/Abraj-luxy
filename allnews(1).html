@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press Releases</title>
+<link rel="icon" href="media/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/aos.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>    
+        <ul class="nav justify-content-end top-nav container">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Media Center</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Whistleblowing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Work with us </a>
+            </li>
+            <li class="nav-item search-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="26" viewBox="0 0 27 26" fill="none">
+                    <path d="M19.9409 19.1883L25.7109 25M23.0443 11.6667C23.0443 17.5577 18.2687 22.3333 12.3776 22.3333C6.48656 22.3333 1.71094 17.5577 1.71094 11.6667C1.71094 5.77563 6.48656 1 12.3776 1C18.2687 1 23.0443 5.77563 23.0443 11.6667Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </li>
+          </ul>
+          <nav class="navbar navbar-expand-lg container">
+              <a class="navbar-brand navbar-logo" href="#">
+                <img class="blue-logo" src="media/logo.png" alt="">
+                <img class="white-logo" src="media/white-logo.png" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Well Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Integrated Project Management</a>
+                  </li>
+                  <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="#">Media Center</a>
+                  </li>
+                  <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="#">Whistleblowing</a>
+                  </li>
+                  <li class="nav-item d-block d-lg-none">
+                    <a class="nav-link" href="#">Work with us </a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+    </header>
+
+    <div class="hero-img-section">
+        <div class=" card-img-top">
+            <img src="media/press release/Rectangle 1.jpg" alt="hero image">
+        </div>
+        <div class="card-img-overlay hero-title container">
+            <h1 class="card-title" data-aos="fade-right">Press Releases</h1>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <div class="bread-crumb container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li data-aos="fade-right"  data-aos-delay="50" class="breadcrumb-item">Home</li>
+              <li data-aos="fade-right"  data-aos-delay="300" class="breadcrumb-item">Dashboard</li>
+              <li data-aos="fade-right"  data-aos-delay="500" class="breadcrumb-item active" aria-current="page">Press Releases</li>
+            </ol>
+          </nav>
+    </div>
+
+    <div class="press-releases-filter  container">
+        <fieldset data-filter-group="type" class="filter-type filter-button-group1">
+            <button  data-aos="fade-up" data-aos-delay="100"  data-filter=".news" class="btn news active">News</button>
+            <button  data-aos="fade-up" data-aos-delay="200"  data-filter=".events" class="btn events">Events</button>
+        </fieldset>
+        <div class="search-bar">
+            <div class="form-group">
+                <span  class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="26" viewBox="0 0 27 26" fill="none">
+                        <path d="M19.9409 19.1883L25.7109 25M23.0443 11.6667C23.0443 17.5577 18.2687 22.3333 12.3776 22.3333C6.48656 22.3333 1.71094 17.5577 1.71094 11.6667C1.71094 5.77563 6.48656 1 12.3776 1C18.2687 1 23.0443 5.77563 23.0443 11.6667Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <fieldset data-filter-group>
+                    <input id="searchbar" data-search-attribute="data-name" type="search" class="form-control" placeholder="Search News">
+                </fieldset>
+                <button  class="filter">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="31" height="19" viewBox="0 0 31 19" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0.710938 1.58333C0.710938 0.70889 1.45714 0 2.3776 0L29.0443 0C29.9648 0 30.7109 0.70889 30.7109 1.58333C30.7109 2.45778 29.9648 3.16667 29.0443 3.16667L2.3776 3.16667C1.45714 3.16667 0.710938 2.45778 0.710938 1.58333ZM5.71094 9.5C5.71094 8.62552 6.45714 7.91667 7.3776 7.91667L24.0443 7.91667C24.9648 7.91667 25.7109 8.62552 25.7109 9.5C25.7109 10.3745 24.9648 11.0833 24.0443 11.0833L7.3776 11.0833C6.45714 11.0833 5.71094 10.3745 5.71094 9.5ZM10.7109 17.4167C10.7109 16.5422 11.4571 15.8333 12.3776 15.8333H19.0443C19.9648 15.8333 20.7109 16.5422 20.7109 17.4167C20.7109 18.2911 19.9648 19 19.0443 19L12.3776 19C11.4571 19 10.7109 18.2911 10.7109 17.4167Z" fill="#1F1F1F"/>
+                        </svg>
+                </button>
+              </div>
+        </div>
+    </div>
+    <div class="news-and-events-section container">
+        <div class="sorting ">
+                <h3  data-aos="zoom-in" data-aos-delay="300">56 Items</h3>
+                <div  class="drop-down-sort">
+                    <div class="sort-type">
+                        <span data-aos="zoom-in" data-aos-delay="350">Sort by:</span>
+                        <div class="dropdown">
+                            <div data-aos="zoom-in" data-aos-delay="400"  class=" dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Newest
+                            </div>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" data-sort="published-date:asc" >Latest</a></li>
+                              <li><a class="dropdown-item disabled" data-sort="published-date:desc">Newest</a></li> 
+                            </ul>
+                          </div>
+                    </div>
+                </div>
+        </div>
+
+        <div class="news-events-cards">
+            <div class="card news corporate clean-energy" data-name="card1" data-aos="fade-right"  data-aos-delay="50" data-published-date="2024-03-29">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="media/press release/Thumbnail.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <h6 class="card-category" data-aos="fade-right"  data-aos-delay="100">News</h6>
+                        <h5 class="card-title" data-aos="fade-right"  data-aos-delay="150">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesti...</h5>
+                        <p class="card-text" data-aos="fade-right"  data-aos-delay="150">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?</p>
+                        <p class="card-date" data-aos="fade-right"  data-aos-delay="200">15 March 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card news corporate investor-relation"  data-name="card2" data-aos="fade-left"  data-aos-delay="50" data-published-date="2024-03-28">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category" data-aos="fade-left"  data-aos-delay="100">News</h6>
+                        <h5 class="card-title" data-aos="fade-left"  data-aos-delay="150">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text" data-aos="fade-left"  data-aos-delay="150">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date" data-aos="fade-left"  data-aos-delay="200">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card news operational clean-energy"  data-name="card3" data-aos="fade-right"  data-aos-delay="50" data-published-date="2024-03-27">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category" data-aos="fade-right"  data-aos-delay="100">News</h6>
+                        <h5 class="card-title" data-aos="fade-right"  data-aos-delay="150">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text" data-aos="fade-right"  data-aos-delay="150">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date" data-aos="fade-right"  data-aos-delay="200">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card news operational oil-rigs"  data-name="card4" data-aos="fade-left"  data-aos-delay="50" data-published-date="2024-03-26">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="media/press release/Thumbnail2.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <h6 class="card-category" data-aos="fade-left"  data-aos-delay="100">News</h6>
+                        <h5 class="card-title" data-aos="fade-left"  data-aos-delay="150">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesti...</h5>
+                        <p class="card-text" data-aos="fade-left"  data-aos-delay="150">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?</p>
+                        <p class="card-date" data-aos="fade-left"  data-aos-delay="200">15 March 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card news operational facilities"  data-name="card5" data-aos="fade-right"  data-aos-delay="50" data-published-date="2024-03-27">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category" data-aos="fade-right"  data-aos-delay="100">News</h6>
+                        <h5 class="card-title" data-aos="fade-right"  data-aos-delay="150">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text" data-aos="fade-right"  data-aos-delay="150">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date" data-aos="fade-right"  data-aos-delay="200">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card hidden news test oil-rigs"  data-name="card6" data-published-date="2024-03-26" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="media/press release/hurricane-harvey-2801135_1280.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <h6 class="card-category" >News</h6>
+                        <h5 class="card-title" >Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesti...</h5>
+                        <p class="card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?</p>
+                        <p class="card-date">15 March 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card hidden events corporate investor-relation"  data-name="card7"  data-published-date="2024-03-28">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category">News</h6>
+                        <h5 class="card-title">Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card hidden events corporate oil-rigs"   data-name="card8" data-published-date="2024-03-26" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="media/press release/desert-74781_1280.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                        <h6 class="card-category" >News</h6>
+                        <h5 class="card-title" >Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesti...</h5>
+                        <p class="card-text" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?</p>
+                        <p class="card-date">15 March 2024</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card hidden events operational finance"  data-name="card9" data-published-date="2024-03-27">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category">News</h6>
+                        <h5 class="card-title" >Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              <div class="card events test operational finance"  data-name="card10" data-published-date="2024-03-27">
+                <div class="row g-0">
+                    <div class="card-body">
+                        <h6 class="card-category">News</h6>
+                        <h5 class="card-title" >Como escolher eletrodomesticos eficientes em termos de energiaComo escolher eletrodomesticos eficientes em termos de energia</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                            Qui quasi non officiis, mollitia in, odit velit a molestias veniam consectetur explicabo adipisci ut accusamus. Sed reiciendis totam consequatur eius amet?
+                        </p>
+                        <p class="card-date">15 March 2024</p>
+                    </div>
+                </div>
+              </div>
+              
+        </div>
+        <div class="load-more-button">
+            <button class="load-more">Load More</button>
+        </div>
+        <div class="filter-panel">
+            <div class="top-panel filter-container">
+              <h4>Filters</h4>
+              <div class="clear-all-button">Clear all &times;</div>
+            </div>
+            <div class="categories filter-container">
+              <div class="accordion"> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="27" height="29" viewBox="0 0 27 29" fill="none">
+                        <path d="M11.3684 16.1719V27.4219H0V16.1719H11.3684ZM8.52632 18.9844H2.84211V24.6094H8.52632V18.9844ZM12.7895 0L20.6053 12.6562H4.97368L12.7895 0ZM12.7895 5.42813L10.0611 9.84375H15.5179L12.7895 5.42813ZM20.6053 15.4688C24.1579 15.4688 27 18.2812 27 21.7969C27 25.3125 24.1579 28.125 20.6053 28.125C17.0526 28.125 14.2105 25.3125 14.2105 21.7969C14.2105 18.2812 17.0526 15.4688 20.6053 15.4688ZM20.6053 18.2812C19.663 18.2812 18.7594 18.6516 18.0932 19.311C17.4269 19.9703 17.0526 20.8645 17.0526 21.7969C17.0526 22.7293 17.4269 23.6235 18.0932 24.2828C18.7594 24.9421 19.663 25.3125 20.6053 25.3125C21.5475 25.3125 22.4511 24.9421 23.1174 24.2828C23.7836 23.6235 24.1579 22.7293 24.1579 21.7969C24.1579 20.8645 23.7836 19.9703 23.1174 19.311C22.4511 18.6516 21.5475 18.2812 20.6053 18.2812Z" fill="black"/>
+                        </svg>
+                      <strong>Categories</strong>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show " data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <fieldset data-filter-group="category" class="category-types filter-button-group2">
+                        <button class="btn active" data-category="all" data-filter="">All</button>
+                        <button class="btn" data-category="corporate" data-filter=".corporate">Corporate</button>
+                        <button class="btn" data-category="test" data-filter=".test">Test</button>
+                        <button class="btn" data-category="operational" data-filter=".operational">Operational</button>
+                      </fieldset>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="topics filter-container">
+              <div class="accordion"> 
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="29" height="28" viewBox="0 0 29 28" fill="none">
+                        <path d="M9.40616 21.35L10.7213 15.904L6.43279 12.292L12.0793 11.774L14.2951 6.72L16.5108 11.83L22.1574 12.292L17.8689 15.904L19.184 21.35L14.2951 18.466L9.40616 21.35ZM14.2951 0C16.1723 0 18.0312 0.362121 19.7656 1.06569C21.4999 1.76925 23.0758 2.80048 24.4032 4.1005C25.7307 5.40053 26.7836 6.94387 27.502 8.64243C28.2204 10.341 28.5902 12.1615 28.5902 14C28.5902 17.713 27.0841 21.274 24.4032 23.8995C21.7224 26.525 18.0864 28 14.2951 28C12.4178 28 10.5589 27.6379 8.82459 26.9343C7.09023 26.2307 5.51435 25.1995 4.18693 23.8995C1.50608 21.274 0 17.713 0 14C0 10.287 1.50608 6.72601 4.18693 4.1005C6.86778 1.475 10.5038 0 14.2951 0ZM14.2951 2.8C11.262 2.8 8.35324 3.98 6.20856 6.0804C4.06388 8.18081 2.85902 11.0296 2.85902 14C2.85902 16.9704 4.06388 19.8192 6.20856 21.9196C8.35324 24.02 11.262 25.2 14.2951 25.2C17.3281 25.2 20.2369 24.02 22.3816 21.9196C24.5263 19.8192 25.7311 16.9704 25.7311 14C25.7311 11.0296 24.5263 8.18081 22.3816 6.0804C20.2369 3.98 17.3281 2.8 14.2951 2.8Z" fill="black"/>
+                        </svg>
+                        <strong>Topics</strong>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <form action="" name="form" id="form">
+                        <fieldset data-filter-group="topic">
+                        <div class="filter-option">
+                          <input type="checkbox" id="all" name="all"  value="" class="all-checkbox" checked>
+                          <label for="all">All <span class="nb-of-items">(128)</span></label>
+                        </div>
+                        
+                        <div class="filter-option">
+                          <input type="checkbox" id="clean-energy" name="clean-energy" value=".clean-energy">
+                          <label for="clean-energy">Clean Energy <span class="nb-of-items">(17)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="investor-relation" name="investor-relation" value=".investor-relation">
+                          <label for="investor-relation">Investor Relations <span class="nb-of-items">(8)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="oil-rigs" name="oil-rigs" value=".oil-rigs">
+                          <label for="oil-rigs">Oil Rigs <span class="nb-of-items">(42)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="facilities" name="facilities" value=".facilities">
+                          <label for="facilities">Facilities <span class="nb-of-items">(20)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="corporate-events" name="corporate-events" value=".corporate-events" >
+                          <label for="corporate-events">Corporate Events <span class="nb-of-items">(5)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="landscapes" name="landscapes" value=".landscapes" >
+                          <label for="landscapes">Landscapes <span class="nb-of-items">(10)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="environmental-governance" name="environmental-governance" value=".environmental-governance">
+                          <label for="environmental-governance">Environmental Governance <span class="nb-of-items">(15)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="nature" name="nature" value=".nature">
+                          <label for="nature">Nature <span class="nb-of-items">(3)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="finance" name="finance" value=".finance">
+                          <label for="finance">Finance <span class="nb-of-items">(12)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="summit" name="summit" value=".summit">
+                          <label for="summit">Summit <span class="nb-of-items">(27)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="trips" name="trips" value=".trips">
+                          <label for="trips">Trips <span class="nb-of-items">(10)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="fincance" name="finance" value=".finance">
+                          <label for="finance">Finance <span class="nb-of-items">(4)</span></label>
+                        </div>
+  
+                        <div class="filter-option">
+                          <input type="checkbox" id="documents" name="documents" value=".documents">
+                          <label for="documents">Documents <span class="nb-of-items">(2)</span></label>
+                        </div>
+                        <!-- Hidden checkboxes -->
+                        <div class="filter-option hidden">
+                          <input type="checkbox" id="test-1" name="test-1" value=".test-1">
+                          <label for="test-1">Test-1 <span class="nb-of-items">(0)</span></label>
+                        </div>
+  
+                        <div class="filter-option hidden">
+                          <input type="checkbox" id="test-2" name="test-2" value=".test-2">
+                          <label for="test-2">Test-2 <span class="nb-of-items">(0)</span></label>
+                        </div>
+  
+                        <div class="filter-option hidden">
+                          <input type="checkbox" id="test-3" name="test-3" value=".test-3">
+                          <label for="test-3">Test-3 <span class="nb-of-items">(0)</span></label>
+                        </div>
+  
+                        <div class="filter-option hidden">
+                          <input type="checkbox" id="test-4" name="test-4" value=".test-4">
+                          <label for="test-4">Test-4 <span class="nb-of-items">(0)</span></label>
+                        </div>
+  
+                         <div id="view-more" class="view-more">+ 21 more</div>
+                       </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+    </div>
+
+    <footer class="text-center text-lg-start text-white">
+        <!-- Grid container -->
+        <div class="container flex-align ">
+            <div class="col-lg-4 col-12  first-column">
+    
+              <div class="footer-logo">
+                <img src="media/white-logo.png" alt="">                  
+              </div>
+    
+              <p class="description">Leading the way in sustainable energy solutions,
+                  driving a greener future through renewables and smart management.
+              </p>
+    
+              <ul class="list-unstyled social-icons ">
+                <li>
+                  <a href="#!">
+                    <svg width="45" height="45" viewBox="0 0 52 52">
+                      <g id="Facebook-icon" transform="translate(-920.877 -13911.248)">
+                        <path id="Icon_awesome-facebook-f" data-name="Icon awesome-facebook-f" d="M12.606,12.359l.61-3.976H9.4V5.8a1.988,1.988,0,0,1,2.242-2.148h1.735V.269A21.152,21.152,0,0,0,10.3,0C7.156,0,5.1,1.9,5.1,5.352v3.03H1.609v3.976H5.1v9.612H9.4V12.359Z" transform="translate(939.383 13926.263)" fill="#fff"></path>
+                        <g id="Ellipse_33" data-name="Ellipse 33" transform="translate(920.877 13911.248)" fill="none" stroke="#fff" stroke-width="1">
+                          <circle cx="26" cy="26" r="26" stroke="none"></circle>
+                          <circle cx="26" cy="26" r="25.5" fill="none"></circle>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li >
+                  <a href="#!">
+                    <svg width="45" height="45" viewBox="0 0 48 48">
+                      <g id="Twitter-icon" transform="translate(-1546 -286)">
+                        <path id="Icon_awesome-twitter" data-name="Icon awesome-twitter" d="M22.354,7.391c.016.221.016.443.016.664A14.429,14.429,0,0,1,7.841,22.583,14.43,14.43,0,0,1,0,20.291a10.562,10.562,0,0,0,1.233.063,10.227,10.227,0,0,0,6.339-2.182A5.115,5.115,0,0,1,2.8,14.631a6.44,6.44,0,0,0,.964.079,5.4,5.4,0,0,0,1.344-.174A5.107,5.107,0,0,1,1.012,9.525V9.462a5.143,5.143,0,0,0,2.308.648A5.114,5.114,0,0,1,1.739,3.28,14.515,14.515,0,0,0,12.268,8.624a5.764,5.764,0,0,1-.126-1.17A5.111,5.111,0,0,1,20.979,3.96,10.053,10.053,0,0,0,24.22,2.727a5.093,5.093,0,0,1-2.245,2.814,10.237,10.237,0,0,0,2.94-.79,10.977,10.977,0,0,1-2.561,2.64Z" transform="translate(1558.199 298.067)" fill="#fff"></path>
+                        <g id="Ellipse_32" data-name="Ellipse 32" transform="translate(1546 286)" fill="none" stroke="#fff" stroke-width="1">
+                          <circle cx="24" cy="24" r="24" stroke="none"></circle>
+                          <circle cx="24" cy="24" r="23.5" fill="none"></circle>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a  href="#!">
+                    <svg width="45" height="45" viewBox="0 0 48 48">
+                      <g id="Instagram-icon" transform="translate(-1045.877 -13913.248)">
+                        <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M10.963,7.579A5.622,5.622,0,1,0,16.584,13.2,5.613,5.613,0,0,0,10.963,7.579Zm0,9.276A3.655,3.655,0,1,1,14.617,13.2a3.661,3.661,0,0,1-3.655,3.655Zm7.163-9.506a1.311,1.311,0,1,1-1.311-1.311A1.308,1.308,0,0,1,18.125,7.349ZM21.849,8.68a6.489,6.489,0,0,0-1.771-4.594,6.532,6.532,0,0,0-4.594-1.771c-1.81-.1-7.236-.1-9.046,0A6.522,6.522,0,0,0,1.843,4.081,6.51,6.51,0,0,0,.072,8.675c-.1,1.81-.1,7.236,0,9.046a6.489,6.489,0,0,0,1.771,4.594,6.54,6.54,0,0,0,4.594,1.771c1.81.1,7.236.1,9.046,0a6.489,6.489,0,0,0,4.594-1.771,6.532,6.532,0,0,0,1.771-4.594c.1-1.81.1-7.231,0-9.042ZM19.51,19.664a3.7,3.7,0,0,1-2.084,2.084c-1.443.572-4.868.44-6.463.44s-5.025.127-6.463-.44a3.7,3.7,0,0,1-2.084-2.084c-.572-1.443-.44-4.868-.44-6.463s-.127-5.025.44-6.463A3.7,3.7,0,0,1,4.5,4.653c1.443-.572,4.868-.44,6.463-.44s5.025-.127,6.463.44A3.7,3.7,0,0,1,19.51,6.738c.572,1.443.44,4.868.44,6.463S20.082,18.225,19.51,19.664Z" transform="translate(1058.916 13924.047)" fill="#fff"></path>
+                        <g id="Ellipse_35" data-name="Ellipse 35" transform="translate(1045.877 13913.248)" fill="none" stroke="#fff" stroke-width="1">
+                          <circle cx="24" cy="24" r="24" stroke="none"></circle>
+                          <circle cx="24" cy="24" r="23.5" fill="none"></circle>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a  href="#!">
+                    <svg width="45" height="45" viewBox="0 0 48 48">
+                      <g id="Youtube-icon" transform="translate(-1112.877 -13913.248)">
+                        <path id="Icon_awesome-youtube" data-name="Icon awesome-youtube" d="M24.666,7.154a3.031,3.031,0,0,0-2.132-2.146C20.652,4.5,13.11,4.5,13.11,4.5s-7.542,0-9.423.507A3.031,3.031,0,0,0,1.554,7.154,31.793,31.793,0,0,0,1.05,13a31.793,31.793,0,0,0,.5,5.843,2.986,2.986,0,0,0,2.132,2.112c1.881.507,9.423.507,9.423.507s7.542,0,9.423-.507a2.986,2.986,0,0,0,2.132-2.112A31.793,31.793,0,0,0,25.17,13a31.793,31.793,0,0,0-.5-5.843Zm-14.023,9.43V9.41L16.947,13l-6.3,3.586Z" transform="translate(1123.767 13924.269)" fill="#fff"></path>
+                        <g id="Ellipse_36" data-name="Ellipse 36" transform="translate(1112.877 13913.248)" fill="none" stroke="#fff" stroke-width="1">
+                          <circle cx="24" cy="24" r="24" stroke="none"></circle>
+                          <circle cx="24" cy="24" r="23.5" fill="none"></circle>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="#!">
+                    <svg width="45" height="45" viewBox="0 0 48 48">
+                      <g id="Linkedin-icon" transform="translate(-1141.877 -13913.248)">
+                        <path id="Icon_awesome-linkedin" data-name="Icon awesome-linkedin" d="M17.471,2.25H1.34A1.35,1.35,0,0,0,0,3.606v16.1a1.35,1.35,0,0,0,1.34,1.356H17.471a1.353,1.353,0,0,0,1.344-1.356V3.606A1.353,1.353,0,0,0,17.471,2.25ZM5.686,18.377H2.9V9.4H5.691v8.979ZM4.292,8.172A1.617,1.617,0,1,1,5.909,6.555,1.618,1.618,0,0,1,4.292,8.172ZM16.139,18.377H13.351V14.009c0-1.042-.021-2.381-1.449-2.381-1.453,0-1.676,1.134-1.676,2.306v4.443H7.438V9.4h2.675v1.226h.038a2.937,2.937,0,0,1,2.642-1.449c2.822,0,3.347,1.86,3.347,4.279Z" transform="translate(1156.471 13925.591)" fill="#fff"></path>
+                        <g id="Ellipse_37" data-name="Ellipse 37" transform="translate(1141.877 13913.248)" fill="none" stroke="#fff" stroke-width="1">
+                          <circle cx="24" cy="24" r="24" stroke="none"></circle>
+                          <circle cx="24" cy="24" r="23.5" fill="none"></circle>
+                        </g>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+    
+            </div>
+  
+            <div class="col-lg-2 col-12  footer-links">
+              <h5 class="links-title">Site links</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">About  Abraj</a>
+                </li>
+                <li>
+                  <a href="#!">Awards & Certifications</a>
+                </li>
+                <li>
+                  <a href="#!">Our Milestones</a>
+                </li>
+                <li>
+                  <a href="#!">Our Operations</a>
+                </li>
+                <li>
+                  <a href="#!">ICV</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-2 col-12  footer-links">
+              <h5 class="links-title">sustainablity</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#!">Safety Guidelines</a>
+                </li>
+                <li>
+                  <a href="#!">Environmental Commitment</a>
+                </li>
+                <li>
+                  <a href="#!">Green Initaitives</a>
+                </li>
+                <li>
+                  <a href="#!">Carbon Footprint Reduction</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-lg-2 col-12 footer-links">
+              <h5 class="links-title">PartnerShips</h5>
+    
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Bussiness Partners</a>
+                </li>
+                <li>
+                  <a href="#">Suppliers</a>
+                </li>
+                <li>
+                  <a href="#">Community Engagement</a>
+                </li>
+                <li>
+                 <a href="#">Sustainablity Partners</a>
+                </li>
+                <li>
+                  <a href="#">Energy Effciency</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-2 col footer-links">
+                <h5 class="links-title">Address</h5>
+                    <a>Building 420,4th floor Mawleh,Muscat
+                    </a>
+              </div>
+            <!--Grid column-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div class="terms-and-copyright container">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Terms of Use</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Legal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Accessibilty</a>
+                </li>
+              </ul>
+            <div class="copyright">
+                © 2024 Copyright Abraj, All Rights Reserved
+            </div>
+        </div>
+       
+        <!-- Copyright -->
+      </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/mixitup-multifilter.js"></script>
+    <script src="js/script.js"></script> 
+</body>
+</html>
